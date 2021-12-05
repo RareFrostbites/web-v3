@@ -1,8 +1,28 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #01001800;
+}
+::-webkit-scrollbar-thumb {
+  background: #040049;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #110d5f;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #05005f;
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
