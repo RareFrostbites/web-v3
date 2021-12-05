@@ -45,33 +45,31 @@
 
 
         <!--js-->
-        <script src="../../../../../../../../../js/assets/"></script>
+        <script src="../../../../../../../../../js/assets/sidebar.js"></script>
     </head>
     <body>
         <div class="body">
             <div class="header">
-              <span class="slide">
-                <h2 style="cursor: pointer;" onclick="openSlideMenu()">
-                  &#9776;
-                </h2>
-              </span>
-              <div class="mobile-sidebar">
-                
+              <div id="mobile-sidebar_button-open">
+                <span class="slide">
+                  <div class="mobile-sidebar_button-open">
+                    <h2 onclick="openSlideMenu()">&#9776;</h2>
+                  </div>
+                </span>
               </div>
-              <div class="logo">
-                  <img src="../../../../../../../../../images/assets/rfb.svg" width="35" />
+              
+              <div class="mobile-logo">
+                <img src="../../../../../../../../../images/assets/rfb.svg" alt="RareFrostbites Logo">
               </div>
-              <div class="desktop-tabs_bottom">
+              <div class="desktop-logo">
+                <img src="../../../../../../../../../images/assets/rfb.svg" alt="RareFrostbites Logo">
+              </div>
+            </div>
 
-              </div>
-              <div class="desktop-sidebar">
-
-              </div>
-              <div class="desktop-more_actions">
-
-              </div>
-              <div class="mobile-more_actions">
-
+            <div id="mobile-sidebar-area" class="mobile-sidebar">
+              <div class="mobile-sidebar-area">
+                <h2 class="close" onclick="closeSlideMenu()">&times;</h2>
+                <a href=""><h3></h3></a>
               </div>
             </div>
             <div class="content">
