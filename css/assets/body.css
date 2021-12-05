@@ -1,0 +1,44 @@
+body {
+    background-color: #010018;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+h5 {
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+h6 {
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+p {
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+ul {
+    color: white;
+}
+li {
+    color: white;
+}
