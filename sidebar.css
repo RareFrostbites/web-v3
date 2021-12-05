@@ -1,0 +1,108 @@
+.body .header .mobile-sidebar_button-open {
+  position: relative;
+  z-index: 3;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+}
+.body .header .mobile-sidebar_button-open h2 {
+  background-color: #46726600;
+  border-radius: 10px;
+  padding: 20px;
+  transition: .3s;
+}
+.body .header .mobile-sidebar_button-open h2:hover {
+  color: #00ffba;
+  background-color: #467266b6;
+  transition: .1s;
+}
+.body .header .mobile-sidebar_button-open h2:active {
+  color: #007757;
+  background-color: #00ffbab6;
+  transition: .1s;
+}
+
+
+.body .mobile-sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: -255px;
+  background-color: #02001f;
+  overflow: auto;
+  padding-top: 60px;
+  transition-duration: .3s;
+}
+.body .mobile-sidebar .mobile-sidebar-area h2 {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 15px;
+  padding-left: 12px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: #8f524c00;
+  transition-duration: .3s;
+}
+.body .mobile-sidebar .mobile-sidebar-area h2:hover {
+  color: #f84130;
+  background-color: #8f524c;
+  transition: .1s;
+}
+.body .mobile-sidebar .mobile-sidebar-area h2:active {
+  color: #640800;
+  background-color: #f84130b6;
+  transition: .1s;
+}
+.body .mobile-sidebar .mobile-sidebar-area a {
+  display: block;
+  padding: 20px 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.body .mobile-sidebar .mobile-sidebar-area a h3 {
+  transition-duration: .3s;
+}
+.body .mobile-sidebar .mobile-sidebar-area a h3:hover {
+  color: #00ccff;
+  margin-left: 10px;
+}
+
+
+.body .header .desktop-sidebar-area {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 50px;
+  overflow-x: scroll;
+}
+.body .header .desktop-sidebar-area h2 {
+  margin-left: 50px;
+  transition: .3s;
+}
+.body .header .desktop-sidebar-area h2:hover {
+  transform: translateX(5px);
+  color: #00ccff;
+}
+
+
+
+@media only screen and (max-width: 632px) {
+  .body .header .desktop-sidebar-area {
+    display: none;
+  }
+}
+  
+  
+  
+@media only screen and (min-width: 633px) {
+  .body .header .mobile-sidebar_button-open {
+    display: none;
+  }
+}
