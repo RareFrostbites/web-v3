@@ -1,0 +1,27 @@
+@media only screen and (max-width: 632px) {
+    .body .header .mobile-sidebar {
+        display: block;
+        background-color: white;
+        width: 40px;
+        height: 100%;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 55px;
+        overflow: auto;
+        padding-top: 60px;
+        transition: .4s;
+    }
+    .body .header .desktop-sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 633px) {
+    .body .header .mobile-sidebar {
+        display: none;
+    }
+    .body .header .desktop-sidebar {
+        display: block;
+    }
+}
