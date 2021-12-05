@@ -38,10 +38,9 @@
 .body .mobile-sidebar .mobile-sidebar-area h2 {
   display: block;
   cursor: pointer;
-  margin-top: -70px;
   width: 50px;
   height: 40px;
-  margin-top: -50px;
+  margin-top: -40px;
   margin-left: 15px;
   padding-left: 12px;
   padding-bottom: 60px;
