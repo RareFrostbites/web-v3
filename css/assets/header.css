@@ -1,17 +1,41 @@
 .body .header {
+  z-index: 1;
+  background-color: 010018;
+  width: auto;
+  height: 80px;
   display: flex;
   align-items: center;
 }
-.body .header .logo {
+.body .header .mobile-logo {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-
-@media only screen and (max-width: 632px) {
-    
+}
+.body .header .mobile-logo img {
+  width: 35px;
+}
+.body .header .desktop-logo {
+  margin-left: 25px;
+}
+.body .header .desktop-logo img {
+  width: 35px;
 }
 
+
+
+@media only screen and (max-width: 632px) {
+  .body .header .desktop-logo {
+    display: none;
+  }
+}
+
+
+
 @media only screen and (min-width: 633px) {
-    
+  .body .header .mobile-logo {
+    display: none;
+  }
 }
