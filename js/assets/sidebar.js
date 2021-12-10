@@ -1,8 +1,6 @@
-function openSlideMenu(){
+function openSidebar(){
     document.getElementById('mobile-sidebar-area').style.marginLeft = '255px';
-    document.getElementById('mobile-sidebar_button-open').style.marginLeft = '0';
   }
-  function closeSlideMenu(){
+  function closeSidebar(){
     document.getElementById('mobile-sidebar-area').style.marginLeft = '0';
-    document.getElementById('mobile-sidebar_button-open').style.marginLeft = '0';
   }
