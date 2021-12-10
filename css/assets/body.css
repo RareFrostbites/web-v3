@@ -8,17 +8,18 @@
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #01001800;
+  background-color: #01001800;
 }
 ::-webkit-scrollbar-thumb {
-  background: #040049;
+  background-color: #04004969;
+  margin: 5px;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #110d5f;
+  background-color: #110d5f;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: #05005f;
+  background-color: #05005f;
 }
 
 
@@ -51,23 +52,50 @@ h3 {
 h4 {
     color: white;
     font-family: 'Readex Pro', sans-serif;
+    font-weight: lighter;
 }
 h5 {
     color: white;
     font-family: 'Readex Pro', sans-serif;
+    font-weight: lighter;
 }
 h6 {
     color: white;
     font-family: 'Readex Pro', sans-serif;
+    font-weight: lighter;
 }
 p {
     color: white;
     font-family: 'Readex Pro', sans-serif;
+    font-weight: lighter;
 }
+
+
 
 ul {
     color: white;
+    font-weight: lighter;
 }
 li {
     color: white;
+    font-weight: lighter;
+}
+
+
+
+hr {
+  outline: #fff;
+}
+
+
+
+.body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body .header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

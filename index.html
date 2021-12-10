@@ -7,18 +7,18 @@
         <meta property="og:site_name" content="RareFrostbites Team" />
         <meta property="og:url" content="https://rarefrostbites.pages.dev/">
         <meta property="og:title" content="RareFrostbites">
-        <meta property="og:description" content="The Official Homepage of RareFrostbites Team. Rise and Shine your Imagination!">
+        <meta property="og:description" content="Rise and Shine your Imagination!">
         <meta property="og:image" content="../../../../../../../../../images/assets/home.jpg">
         
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://rarefrostbites.pages.dev/">
         <meta property="twitter:title" content="RareFrostbites">
-        <meta property="twitter:description" content="The Official Homepage of RareFrostbites Team. Rise and Shine your Imagination!">
+        <meta property="twitter:description" content="Rise and Shine your Imagination!">
         <meta property="twitter:image" content="../../../../../../../../../images/assets/home.jpg">
         
         
         <meta name="title" content="RareFrostbites">
-        <meta name="description" content="The Official Homepage of RareFrostbites Team. Rise and Shine your Imagination!">
+        <meta name="description" content="Rise and Shine your Imagination!">
         <meta name="keywords" content="Homepage, RareFrostbites">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="English">
@@ -45,48 +45,371 @@
 
 
         <!--js-->
+        <script src="../../../../../../../../../js/assets/header.js"></script>
         <script src="../../../../../../../../../js/assets/sidebar.js"></script>
     </head>
     <body>
-        <div class="body">
-            <div class="header">
-              <div id="mobile-sidebar_button-open">
-                <span class="slide">
-                  <div class="mobile-sidebar_button-open">
-                    <h2 onclick="openSlideMenu()">&#9776;</h2>
+      <div class="body">
+        <div class="header">
+          <span class="slide">
+            <div class="mobile-sidebar_button-open">
+              <h2 onclick="openSidebar()">&#9776;</h2>
+            </div>
+          </span>
+          
+          <div class="mobile-logo">
+            <img src="../../../../../../../../../images/assets/rfb.svg" alt="RareFrostbites Logo">
+          </div>
+          <div class="desktop-logo">
+            <img src="../../../../../../../../../images/assets/rfb.svg" alt="RareFrostbites Logo">
+          </div>
+          <div class="desktop-sidebar">
+            <div class="desktop-sidebar-area">
+              <a href="../../../../../../../../../apply" style="margin-left: 0px;"><h2>Apply</h3></a>
+              <a href="../../../../../../../../../contact"><h2>Contact Us</h3></a>
+              <a href="../../../../../../../../../privacy_policy" style="margin-right: 5px;"><h2>Privacy Policy</h3></a>
+            </div>
+          </div>
+          <div class="mobile-products" onclick="openProducts()">
+            <img src="../../../../../../../../../images/assets/icons/white/Apps.svg" alt="Apps" width="20px" height="20px" >
+          </div>
+          <div class="desktop-products" onclick="openProducts()">
+            <img src="../../../../../../../../../images/assets/icons/white/Apps.svg" alt="Apps" width="20px" height="20px" >
+          </div>
+          <div class="open-products" id="open-products">
+            <div class="close-products" onclick="closeProducts()">
+              <img src="../../../../../../../../../images/assets/icons/white/Close.svg" alt="Close">
+            </div>
+            
+            <div class="products">
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
                   </div>
-                </span>
-              </div>
-              
-              <div class="mobile-logo">
-                <img src="../../../../../../../../../images/assets/rfb.svg" alt="RareFrostbites Logo">
-              </div>
-              <div class="desktop-logo">
-                <img src="../../../../../../../../../images/assets/rfb.svg" alt="RareFrostbites Logo">
-              </div>
-              <div class="desktop-sidebar">
-                <div class="desktop-sidebar-area">
-                  <a href="../../../../../../../../../about"><h2 style="margin-left: 0px;">About</h3></a>
-                  <a href="../../../../../../../../../contact"><h2>Contact</h3></a>
-                  <a href="../../../../../../../../../apply"><h2 style="margin-right: 0px;">Apply</h3></a>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
                 </div>
-              </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="../../../../../../../../../store">
+                <div class="selection">
+                  <div class="selection-img">
+                    <img src="../../../../../../../../../images/store/rfbstore.svg" alt="RFB Store" >
+                  </div>
+                  <div class="selection-h">
+                    <h5>RFB Store</h5>
+                  </div>
+                </div>
+              </a>
             </div>
-
-            <div id="mobile-sidebar-area" class="mobile-sidebar">
-              <div class="mobile-sidebar-area">
-                <h2 class="close" onclick="closeSlideMenu()">&times;</h2>
-                <a href="../../../../../../../../../about"><h3>About</h3></a>
-                <a href="../../../../../../../../../contact"><h3>Contact</h3></a>
-                <a href="../../../../../../../../../apply"><h3>Apply</h3></a>
-              </div>
-            </div>
-            <div class="content">
-
-            </div>
-            <div class="mobile-tabs_bottom">
-                
-            </div>
+          </div>
         </div>
+
+        <div id="mobile-sidebar-area" class="mobile-sidebar">
+          <div class="mobile-sidebar-area">
+            <h2 class="close" onclick="closeSidebar()">&times;</h2>
+            <a href="../../../../../../../../../apply"><h3>Apply</h3></a>
+            <a href="../../../../../../../../../contact"><h3>Contact Us</h3></a>
+            <a href="../../../../../../../../../privacy_policy"><h3>Privacy Policy</h3></a>
+          </div>
+        </div>
+        <div class="content">
+
+        </div>
+        <div class="mobile-tabs_bottom">
+        
+        </div>
+      </div>
     </body>
 </html>
