@@ -6,13 +6,14 @@
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
+  background-color: #010018;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #01001800;
+  background-color: #010018;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #04004969;
-  margin: 5px;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -85,17 +86,4 @@ li {
 
 hr {
   outline: #fff;
-}
-
-
-
-.body {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.body .header {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }

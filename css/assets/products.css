@@ -1,0 +1,121 @@
+.body .mobile-products {
+    position: fixed;
+    z-index: 3;
+    right: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .body .mobile-products:hover {
+    background-color: #ffffff33;
+  }
+  .body .mobile-products:active {
+    background-color: #ffffff43;
+  }
+  .body .mobile-products img {
+    margin-bottom: -3px;
+  }
+  
+  .body .desktop-products {
+    position: fixed;
+    z-index: 3;
+    right: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .body .desktop-products:hover {
+    background-color: #ffffff33;
+  }
+  .body .desktop-products:active {
+    background-color: #ffffff43;
+  }
+  .body .desktop-products img {
+    margin-bottom: -3px;
+  }
+  
+  .body .open-products {
+    position: fixed;
+    z-index: 6;
+    border-radius: 5px;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    background-color: #02002e;
+    right: 10px;
+    top: 20px;
+    overflow-y: scroll;
+    display: none;
+  }
+  .body .open-products::-webkit-scrollbar {
+    background-color: #02002e;
+  }
+  .body .open-products::-webkit-scrollbar-track {
+    background-color: #02002e;
+    border-radius: 5px;
+  }
+  
+  .body .open-products .close-products {
+    position: fixed;
+    top: 32.5px;
+    right: 23px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .body .open-products .close-products:hover {
+    background-color: #ffffff33;
+  }
+  .body .open-products .close-products:active {
+    background-color: #ffffff43;
+  }
+  
+  .body .open-products .products {
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    list-style-type: disc;
+  }
+  .body .open-products .products a .selection {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .body .open-products .products a .selection:hover {
+    background-color: #ffffff33;
+  }
+  .body .open-products .products a .selection:active {
+    background-color: #ffffff43;
+  }
+  
+  .body .open-products .products a .selection .selection-img {
+    display: flex;
+    justify-content: center;
+  }
+  .body .open-products .products a .selection .selection-img img {
+    position: static;
+    width: 70px;
+    height: 70px;
+  }
+  .body .open-products .products a .selection .selection-h {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+@media only screen and (max-width: 799.9px) {
+  .body .desktop-products {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (min-width: 800px) {
+  .body .mobile-products {
+    display: none;
+  }
+}
