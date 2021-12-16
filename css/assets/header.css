@@ -1,5 +1,4 @@
 .body .header {
-  box-shadow: 0px 0px 10px 0px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -9,6 +8,23 @@
   display: flex;
   align-items: center;
 }
+
+
+
+.body .header_shadow {
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 1px 5px 5px #00000052;
+  top: 0;
+  z-index: 1;
+  background-color: #010018;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+
+
 
 
 
@@ -23,6 +39,26 @@
 .body .header .mobile-logo img {
   width: 35px;
 }
+
+
+
+.body .header_shadow .mobile-logo {
+  position: fixed;
+  z-index: 2;
+  top: 26px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.body .header_shadow .mobile-logo img {
+  width: 35px;
+}
+
+
+
+
+
+
 .body .header .desktop-logo {
   margin-left: 55px;
 }
@@ -32,11 +68,32 @@
 
 
 
+.body .header_shadow .desktop-logo {
+  margin-left: 55px;
+}
+.body .header_shadow .desktop-logo img {
+  width: 35px;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 799.9px) {
   .body .header .desktop-logo {
     display: none;
   }
+
+
+  
+  .body .header_shadow .desktop-logo {
+    display: none;
+  }
 }
+
+
+
 
 
 
@@ -47,7 +104,19 @@
   .body .header .mobile-logo {
     display: none;
   }
+
+
+  
+  .body .header_shadow {
+    width: 800px;
+  }
+  .body .header_shadow .mobile-logo {
+    display: none;
+  }
 }
+
+
+
 
 
 
@@ -56,6 +125,12 @@
     width: 1285px;
   }
   .body .header {
+    width: 1285px;
+  }
+
+
+  
+  .body .header_shadow {
     width: 1285px;
   }
 }

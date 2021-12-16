@@ -13,15 +13,36 @@ body::-webkit-scrollbar {
   margin-right: auto;
 }
 
+
+
+
+
+
 .body .header {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+
+
+.body .header_shadow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
 .body .content {
   height: 100vh;
 }
+
+
+
 
 
 
@@ -36,6 +57,9 @@ body::-webkit-scrollbar {
 
 
 
+
+
+
 .body .sidebar-untap {
   display: none;
   width: 200%;
@@ -45,6 +69,9 @@ body::-webkit-scrollbar {
   background-color: #00000054;
   position: fixed;
 }
+
+
+
 
 
 
