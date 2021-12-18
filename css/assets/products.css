@@ -8,10 +8,10 @@
   cursor: pointer;
 }
 .body .mobile-products:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .mobile-products:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 .body .mobile-products img {
   margin-bottom: -3px;
@@ -26,10 +26,10 @@
   cursor: pointer;
 }
 .body .desktop-products:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .desktop-products:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 .body .desktop-products img {
   margin-bottom: -3px;
@@ -67,10 +67,10 @@
   cursor: pointer;
 }
 .body .open-products .close-products:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .open-products .close-products:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 .body .open-products .products {
@@ -88,10 +88,10 @@
   vertical-align: top;
 }
 .body .open-products .products a .selection:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .open-products .products a .selection:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 .body .open-products .products a .selection .selection-img {

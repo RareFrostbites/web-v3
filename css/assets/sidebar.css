@@ -12,10 +12,10 @@
   padding: 17px 0px 0px 24px;
 }
 .body .header .mobile-sidebar_button-open h2:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .header .mobile-sidebar_button-open h2:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 
@@ -34,10 +34,10 @@
   padding: 17px 0px 0px 24px;
 }
 .body .header_shadow .mobile-sidebar_button-open h2:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .header_shadow .mobile-sidebar_button-open h2:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 
@@ -58,10 +58,10 @@
   padding: 10px 30px 10px 30px;
 }
 .body .header .desktop-sidebar-area h2:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .header .desktop-sidebar-area h2:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 
@@ -79,10 +79,10 @@
   padding: 10px 30px 10px 30px;
 }
 .body .header_shadow .desktop-sidebar-area h2:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .header_shadow .desktop-sidebar-area h2:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 
@@ -114,10 +114,10 @@
   text-decoration: none;
 }
 .body .mobile-sidebar .mobile-sidebar-area h2:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .mobile-sidebar .mobile-sidebar-area h2:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 .body .mobile-sidebar .mobile-sidebar-area a {
   display: block;
@@ -128,10 +128,10 @@
   text-decoration: none;
 }
 .body .mobile-sidebar .mobile-sidebar-area a:hover {
-  background-color: #ffffff33;
+  background-color: #ffffff43;
 }
 .body .mobile-sidebar .mobile-sidebar-area a:active {
-  background-color: #ffffff43;
+  background-color: #ffffff33;
 }
 
 

@@ -1,11 +1,11 @@
 .body .content .intro {
+  position: relative;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
   min-height: 250px;
   text-align: center;
   background-color: #007054;
-  position: relative;
   border-radius: 0px 0px 30px 30px;
 }
 
@@ -19,6 +19,34 @@
   height: 90px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+.body .content .packs_for_you {
+  position: relative;
+  width: 645px;
+  height: 645px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+
+
+.body .content .packs_for_you img {
+  position: absolute;
+  width: 645px;
+  height: 645px;
+  z-index: inherit;
+}
+
+
+
+.body .content .packs_for_you iframe {
+  width: 645px;
+  height: 645px;
 }
 
 
