@@ -1,3 +1,10 @@
+@font-face {
+  src: url(../../../../../../../../../fonts/Mojang-Regular.ttf);
+  font-family: Mojangles;
+}
+
+
+
 * {
   margin: 0px;
   padding: 0px;

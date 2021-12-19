@@ -56,6 +56,8 @@
   width: max-content;
   border-radius: 30px;
   padding: 10px 30px 10px 30px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .body .header .desktop-sidebar-area h2:hover {
   background-color: #ffffff43;
@@ -77,6 +79,8 @@
   width: max-content;
   border-radius: 30px;
   padding: 10px 30px 10px 30px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .body .header_shadow .desktop-sidebar-area h2:hover {
   background-color: #ffffff43;
