@@ -80,7 +80,7 @@
 
 
 
-@media only screen and (max-width: 799.9px) {
+@media only screen and (max-width: 799px) {
   .body .header .desktop-logo {
     display: none;
   }
@@ -98,39 +98,13 @@
 
 
 @media only screen and (min-width: 800px) {
-  .body .header {
-    width: 800px;
-  }
   .body .header .mobile-logo {
     display: none;
   }
 
 
   
-  .body .header_shadow {
-    width: 800px;
-  }
   .body .header_shadow .mobile-logo {
     display: none;
-  }
-}
-
-
-
-
-
-
-@media only screen and (min-width: 1285px) {
-  .body {
-    width: 1285px;
-  }
-  .body .header {
-    width: 1285px;
-  }
-
-
-  
-  .body .header_shadow {
-    width: 1285px;
   }
 }

@@ -143,7 +143,7 @@
 
 
 
-@media only screen and (max-width: 799.9px) {
+@media only screen and (max-width: 799px) {
   .body .header .desktop-sidebar-area {
     display: none;
   }

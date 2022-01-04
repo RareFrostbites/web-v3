@@ -39,7 +39,7 @@
   position: fixed;
   z-index: 6;
   border-radius: 5px;
-  width: 260px;
+  width: 277.6px;
   height: 300px;
   padding: 10px;
   background-color: #02002e;
@@ -63,7 +63,7 @@
   top: 30.4px;
   right: 21px;
   border-radius: 20px;
-  padding: 6.5px 5px 5px 6.5px;
+  padding: 9px 9px 9px 9px;
   cursor: pointer;
 }
 .body .open-products .close-products:hover {
@@ -72,46 +72,51 @@
 .body .open-products .close-products:active {
   background-color: #ffffff33;
 }
+.body .open-products .close-products img {
+  width: 20px;
+  height: 20px;
+}
 
-.body .open-products .products {
+.body .open-products .products-overlay {
   z-index: 3;
   width: 100%;
   height: auto;
   list-style-type: disc;
 }
-.body .open-products .products a .selection {
-  width: 70px;
-  height: 70px;
+.body .open-products .products-overlay a .selection {
+  width: 80px;
+  height: 90px;
+  padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
 }
-.body .open-products .products a .selection:hover {
+.body .open-products .products-overlay a .selection:hover {
   background-color: #ffffff43;
 }
-.body .open-products .products a .selection:active {
+.body .open-products .products-overlay a .selection:active {
   background-color: #ffffff33;
 }
 
-.body .open-products .products a .selection .selection-img {
+.body .open-products .products-overlay a .selection .selection-img {
   display: flex;
   justify-content: center;
 }
-.body .open-products .products a .selection .selection-img img {
+.body .open-products .products-overlay a .selection .selection-img img {
   position: static;
   width: 50px;
   height: 50px;
 }
-.body .open-products .products a .selection .selection-h {
-  margin-top: 2px;
+.body .open-products .products-overlay a .selection .selection-h {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
 
 
 
-@media only screen and (max-width: 799.9px) {
+@media only screen and (max-width: 799px) {
   .body .desktop-products {
     display: none;
   }
