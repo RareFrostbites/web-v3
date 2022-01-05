@@ -1,38 +1,95 @@
 .body .mobile-products {
   position: fixed;
   z-index: 3;
-  top: 29px;
+  top: 15px;
   right: 20px;
-  padding: 10px;
-  border-radius: 30px;
+}
+.body .mobile-products .mobile-products-open-bounce {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+}
+.body .mobile-products .mobile-products-open-bounce .mobile-products-open {
+  border-radius: 50px;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
   cursor: pointer;
+  transition-duration: .2s;
 }
-.body .mobile-products:hover {
+.body .mobile-products .mobile-products-open-bounce .mobile-products-open:hover {
   background-color: #ffffff43;
+  transition-duration: .1s;
 }
-.body .mobile-products:active {
+.body .mobile-products .mobile-products-open-bounce .mobile-products-open:active {
+  padding: 18px 18px 18px 18px;
+  margin-left: 2px;
   background-color: #ffffff33;
+  transition-duration: .1s;
 }
-.body .mobile-products img {
-  margin-bottom: -3px;
+.body .mobile-products .mobile-products-open-bounce .mobile-products-open .products {
+  width: 20px;
+  height: 20px;
+}
+.body .mobile-products .mobile-products-open-bounce .mobile-products-open .products img {
+  width: 20px;
+  height: 20px;
+}
+.body .mobile-products .mobile-products-open-bounce .mobile-products-open:active .products img {
+  width: 18px;
+  height: 18px;
+  margin: 1px 1px 1px 1px;
+  transition-duration: .1s;
 }
 
 .body .desktop-products {
   position: fixed;
   z-index: 3;
+  top: 15px;
   right: 20px;
-  padding: 10px;
-  border-radius: 30px;
+}
+.body .desktop-products .desktop-products-open-bounce {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+}
+.body .desktop-products .desktop-products-open-bounce .desktop-products-open {
+  border-radius: 50px;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
   cursor: pointer;
+  transition-duration: .2s;
 }
-.body .desktop-products:hover {
+.body .desktop-products .desktop-products-open-bounce .desktop-products-open:hover {
   background-color: #ffffff43;
+  transition-duration: .1s;
 }
-.body .desktop-products:active {
+.body .desktop-products .desktop-products-open-bounce .desktop-products-open:active {
+  padding: 18px 18px 18px 18px;
+  margin-left: 2px;
   background-color: #ffffff33;
+  transition-duration: .1s;
 }
-.body .desktop-products img {
-  margin-bottom: -3px;
+.body .desktop-products .desktop-products-open-bounce .desktop-products-open .products {
+  width: 20px;
+  height: 20px;
+}
+.body .desktop-products .desktop-products-open-bounce .desktop-products-open .products img {
+  width: 20px;
+  height: 20px;
+}
+.body .desktop-products .desktop-products-open-bounce .desktop-products-open:active .products img {
+  width: 18px;
+  height: 18px;
+  margin: 1px 1px 1px 1px;
+  transition-duration: .1s;
 }
 
 .body .open-products {
@@ -43,7 +100,7 @@
   height: 300px;
   padding: 10px;
   background-color: #02002e;
-  right: 10px;
+  right: 20px;
   top: 20px;
   overflow-y: scroll;
   display: none;
@@ -58,23 +115,48 @@
 
 .body .open-products .close-products {
   position: fixed;
-  width: 38px;
-  height: 38px;
-  top: 30.4px;
-  right: 21px;
-  border-radius: 20px;
-  padding: 9px 9px 9px 9px;
+  top: 15px;
+  right: 20px;
+}
+.body .open-products .close-products .close-products-close-bounce {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+}
+.body .open-products .close-products .close-products-close-bounce .close-products-close {
+  border-radius: 50px;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
   cursor: pointer;
+  transition-duration: .2s;
 }
-.body .open-products .close-products:hover {
+.body .open-products .close-products .close-products-close-bounce .close-products-close:hover {
   background-color: #ffffff43;
+  transition-duration: .1s;
 }
-.body .open-products .close-products:active {
+.body .open-products .close-products .close-products-close-bounce .close-products-close:active {
+  padding: 18px 18px 18px 18px;
+  margin-left: 2px;
   background-color: #ffffff33;
+  transition-duration: .1s;
 }
-.body .open-products .close-products img {
+.body .open-products .close-products .close-products-close-bounce .close-products-close .close {
   width: 20px;
   height: 20px;
+}
+.body .open-products .close-products .close-products-close-bounce .close-products-close .close img {
+  width: 20px;
+  height: 20px;
+}
+.body .open-products .close-products .close-products-close-bounce .close-products-close:active .close img {
+  width: 18px;
+  height: 18px;
+  margin: 1px 1px 1px 1px;
+  transition-duration: .1s;
 }
 
 .body .open-products .products-overlay {
@@ -91,12 +173,15 @@
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
+  transition-duration: .2s;
 }
 .body .open-products .products-overlay a .selection:hover {
   background-color: #ffffff43;
+  transition-duration: .1s;
 }
 .body .open-products .products-overlay a .selection:active {
   background-color: #ffffff33;
+  transition-duration: .1s;
 }
 
 .body .open-products .products-overlay a .selection .selection-img {
