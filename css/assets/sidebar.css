@@ -98,12 +98,15 @@
   padding: 10px 30px 10px 30px;
   margin-left: -10px;
   margin-right: -10px;
+  transition-duration: .2s;
 }
 .body .header .desktop-sidebar-area h2:hover {
   background-color: #ffffff43;
+  transition-duration: .1s;
 }
 .body .header .desktop-sidebar-area h2:active {
   background-color: #ffffff33;
+  transition-duration: .1s;
 }
 
 
