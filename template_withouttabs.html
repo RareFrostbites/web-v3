@@ -5,13 +5,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="RareFrostbites Team" />
-    <meta property="og:url" content="https://rarefrostbites.pages.dev/###">
+    <meta property="og:url" content="https://rarefrostbites.pages.dev/">
     <meta property="og:title" content="RareFrostbites">
     <meta property="og:description" content="Rise and Shine your Imagination!">
     <meta property="og:image" content="../images/assets/home.jpg">
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://rarefrostbites.pages.dev/###">
+    <meta property="twitter:url" content="https://rarefrostbites.pages.dev/">
     <meta property="twitter:title" content="RareFrostbites">
     <meta property="twitter:description" content="Rise and Shine your Imagination!">
     <meta property="twitter:image" content="../images/assets/home.jpg">
@@ -27,18 +27,22 @@
     <meta content="width=device-width,minimum-scale=1.0" name="viewport">
     
     
-    <link rel="canonical" href="https://rarefrostbites.pages.dev/###" />
+    <link rel="canonical" href="https://rarefrostbites.pages.dev/" />
 
 
     <!--fonts-->
+    <link rel="stylesheet" href="../css/assets/fonts.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Readex+Pro&display=swap" rel="stylesheet">
 
 
+
     <!--lottie webplayer-->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     
+
     
     <!--css-->
     <link rel="stylesheet" href="../css/assets/body.css">
@@ -46,8 +50,7 @@
     <link rel="stylesheet" href="../css/assets/header.css">
     <link rel="stylesheet" href="../css/assets/products.css">
     <link rel="stylesheet" href="../css/assets/sidebar.css">
-    
-    <link rel="stylesheet" href="../css/index/content.css">
+
 
 
     <!--js-->
@@ -61,8 +64,12 @@
       <div class="sidebar-untap" id="sidebar" onclick="closeSidebar()"></div>
       <div id="header" class="header">
         <span class="slide">
-          <div class="mobile-sidebar_button-open">
-            <h2 onclick="openSidebar()">&#9776;</h2>
+          <div class="mobile-sidebar_button-open-bounce">
+            <div class="mobile-sidebar_button-open" onclick="openSidebar()">
+              <div class="menu">
+                <img src="../images/assets/icons/white/Menu.svg" alt="Menu Sidebar">
+              </div>
+            </div>
           </div>
         </span>
         
@@ -80,18 +87,36 @@
           </div>
         </div>
         <div class="mobile-products" onclick="openProducts()">
-          <img src="../images/assets/icons/white/Products.svg" alt="Apps" width="20px" height="20px" >
+          <div class="mobile-products-open-bounce">
+            <div class="mobile-products-open">
+              <div class="products">
+                <img src="../images/assets/icons/white/Products.svg" alt="Apps">
+              </div>
+            </div>
+          </div>
         </div>
         <div class="desktop-products" onclick="openProducts()">
-          <img src="../images/assets/icons/white/Products.svg" alt="Apps" width="20px" height="20px" >
+          <div class="desktop-products-open-bounce">
+            <div class="desktop-products-open">
+              <div class="products">
+                <img src="../images/assets/icons/white/Products.svg" alt="Apps">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
       <div class="open-products" id="open-products">
-        <div class="close-products" onclick="closeProducts()">
-          <img src="../images/assets/icons/white/Close.svg" alt="Close">
+        <div class="close-products">
+          <div class="close-products-close-bounce">
+            <div class="close-products-close" onclick="closeProducts()">
+              <div class="close">
+                <img src="../images/assets/icons/white/Close.svg" alt="Close">
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="products">
+        <div class="products-overlay">
           <a href="../store">
             <div class="selection">
               <div class="selection-img">
@@ -107,7 +132,13 @@
 
       <div id="mobile-sidebar-area" class="mobile-sidebar">
         <div class="mobile-sidebar-area">
-          <h2 class="close" onclick="closeSidebar()">&times;</h2>
+          <div class="mobile-sidebar_button-close-bounce">
+            <div class="mobile-sidebar_button-close" onclick="closeSidebar()">
+              <div class="close">
+                <img src="../images/assets/icons/white/Close.svg" alt="Close">
+              </div>
+            </div>
+          </div>
           <a href="../apply"><h3>Apply</h3></a>
           <a href="../contact"><h3>Contact Us</h3></a>
           <a href="../privacy_policy"><h3>Privacy Policy</h3></a>
