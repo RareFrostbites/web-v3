@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 
 
 .body .content {
-  height: 900vh;
+  height: auto;
 }
 
 

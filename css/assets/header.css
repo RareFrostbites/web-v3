@@ -2,7 +2,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: #010018;
   height: 100px;
   display: flex;
@@ -16,7 +16,7 @@
   position: sticky;
   box-shadow: 1px 5px 5px #00000052;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: #010018;
   height: 100px;
   display: flex;
@@ -59,18 +59,12 @@
 
 
 
-.body .header .desktop-logo {
-  margin-left: 55px;
-}
 .body .header .desktop-logo img {
   width: 35px;
 }
 
 
 
-.body .header_shadow .desktop-logo {
-  margin-left: 55px;
-}
 .body .header_shadow .desktop-logo img {
   width: 35px;
 }

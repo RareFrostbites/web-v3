@@ -1,0 +1,112 @@
+.body .footer {
+    width: auto;
+    height: 500px;
+}
+
+
+
+.body .footer hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-width: .2px;
+    outline-style: solid;
+    outline-color: #c2c2c2;
+    border: none;
+    width: auto;
+}
+
+
+
+.body .footer .social_media {
+    width: 320px;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.body .footer .social_media .image-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce .image {
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce .image:hover {
+    transition-duration: .1s;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce .image:active {
+    padding: 1px 1px 1px 1px;
+    transition-duration: .1s;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce .image a {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce .image a img {
+    display: block;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.body .footer .social_media .image-logo .image-bounce:active .image:active a img {
+    margin: 1px 1px 1px 1px;
+    width: 37px;
+    height: 37px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+    .body .footer .social_media {
+        float: left;
+        margin-left: 100px;
+        height: auto;
+        text-align: center;
+    }
+}

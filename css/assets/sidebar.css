@@ -88,7 +88,6 @@
 .body .header .desktop-sidebar-area {
   width: 620px;
   display: flex;
-  margin-top: 15px;
   margin-left: 10px;
   overflow-x: scroll;
 }
@@ -114,7 +113,6 @@
 .body .header_shadow .desktop-sidebar-area {
   width: 620px;
   display: flex;
-  margin-top: 15px;
   margin-left: 10px;
   overflow-x: scroll;
 }
