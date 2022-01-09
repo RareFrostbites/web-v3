@@ -169,6 +169,7 @@
 }
 .body .content .rfbstore .rfbstore_button button:active h3 {
   color: #ffffff;
+  transform: translateY(5px);
 }
 
 

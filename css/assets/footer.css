@@ -1,6 +1,6 @@
 .body .footer {
     width: auto;
-    height: 500px;
+    padding-bottom: 50px;
 }
 
 
@@ -93,8 +93,74 @@
 
 
 
-@media only screen and (max-width: 799px) {
+.body .footer .pricon {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
 
+
+
+.body .footer .pricon h5 {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: .2s;
+}
+
+
+
+.body .footer .pricon h5:hover {
+    background-color: #ffffff43;
+    transition-duration: .1s;
+}
+
+
+
+.body .footer .pricon h5:active {
+    background-color: #ffffff33;
+    transition-duration: .1s;
+}
+
+
+
+
+
+
+.body .footer .year {
+    margin-left: 40px;
+}
+
+
+
+.body .footer .year h5::after {
+    content: "© 2020 - 2022";
+}
+
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+    .body .footer .social_media {
+        margin-right: auto;
+        margin-bottom: 100px;
+        margin-left: auto;
+        height: auto;
+        text-align: center;
+    }
+
+
+
+
+
+
+    .body .footer .year {
+        margin-top: 150px;
+    }
 }
 
 
@@ -108,5 +174,23 @@
         margin-left: 100px;
         height: auto;
         text-align: center;
+    }
+
+
+
+
+
+
+    .body .footer .pricon {
+        margin-top: 200px;
+    }
+
+
+
+
+
+
+    .body .footer .year {
+        margin-top: 300px;
     }
 }
