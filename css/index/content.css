@@ -232,7 +232,6 @@
   align-items: center;
   width: 320px;
   height: 320px;
-  margin-bottom: 50px;
 }
 
 
@@ -472,6 +471,29 @@
   .body .content .products .product-icon .container-sel {
     margin-left: 40px;
     margin-right: 40px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+  .body .content .products .product-icon .container-sel-bounce {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 426px) {
+  .body .content .products .product-icon .container-sel-bounce {
+    margin-bottom: 50px;
   }
 }
 
