@@ -1,0 +1,13 @@
+﻿Chinese (Simplified) = Baloo 2, ZCOOL Kuaile
+
+English = Poppins, Readex Pro
+
+Japanese = Kosugi Maru, M Plus 1p
+
+Khmer = Nokora, Katumruy
+
+Korean = Poor Story, Gothic A1
+
+Myanmar = Padauk, Noto Sans Myanmar
+
+Vietnamese = Be Vietnam Pro, Josefin Sans

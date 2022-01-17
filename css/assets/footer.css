@@ -39,7 +39,6 @@
     display: block;
     width: 60px;
     height: 60px;
-    margin: 5px;
 }
 
 
@@ -147,6 +146,105 @@
 
 
 
+.body .footer .language .current {
+    position: relative;
+    display: flex;
+    z-index: 6;
+    float: right;
+    margin-right: 30px;
+    padding: 5px;
+    width: 60px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.body .footer .language .current:hover {
+    background-color: #ffffff43;
+}
+
+
+
+.body .footer .language .current:active {
+    background-color: #00ffbb43;
+}
+
+
+
+.body .footer .language .current img {
+    border-radius: 3px;
+}
+
+
+
+.body .footer .language .selection {
+    position: relative;
+    display: none;
+    z-index: 6;
+    flex-direction: column;
+    float: right;
+    bottom: 210px;
+    padding: 8px 5px 8px 5px;
+    margin-bottom: -200px;
+    right: -60px;
+    width: 90px;
+    height: 200px;
+    background-color: #02002e;
+    border-radius: 5px;
+    align-content: center;
+    overflow-y: scroll;
+}
+
+
+
+.body .footer .language .selection .select {
+    display: flex;
+    height: 30px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    border-radius: 5px;
+    animation-duration: .2s;
+    align-items: center;
+}
+
+
+
+.body .footer .language .selection .select:hover {
+    background-color: #ffffff43;
+    animation-duration: .1s;
+}
+
+
+
+.body .footer .language .selection .select:active {
+    background-color: #00ffbb43;
+    animation-duration: .1s;
+}
+
+
+
+.body .footer .language .selection .select img {
+    border-radius: 3px;
+}
+
+
+
+.body .footer .language .selection .select h5 {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 530px) {
     .body .footer .social_media .image-logo .image-bounce {
         width: 40px;
@@ -190,6 +288,17 @@
 
 
 
+@media only screen and (min-width: 531px) {
+    .body .footer .social_media .image-logo .image-bounce {
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
 @media only screen and (max-width: 799px) {
     .body .footer .social_media {
         margin-right: auto;
@@ -217,7 +326,7 @@
 @media only screen and (min-width: 800px) {
     .body .footer .social_media {
         float: left;
-        margin-left: 100px;
+        margin-left: 120px;
         height: auto;
         text-align: center;
     }

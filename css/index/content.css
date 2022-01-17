@@ -160,7 +160,7 @@
 
 
 .body .content .rfbstore .rfbstore_button button h3 {
-  font-family: Mojangles;
+  font-family: Mojangles, Unicode;
   color: #404040;
   font-weight: normal;
 }

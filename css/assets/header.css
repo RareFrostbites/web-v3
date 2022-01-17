@@ -59,21 +59,6 @@
 
 
 
-.body .header .desktop-logo img {
-  width: 35px;
-}
-
-
-
-.body .header_shadow .desktop-logo img {
-  width: 35px;
-}
-
-
-
-
-
-
 @media only screen and (max-width: 799px) {
   .body .header .desktop-logo {
     display: none;

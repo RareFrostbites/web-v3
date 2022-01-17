@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>RareFrostbites</title>
+    <title>RareFrostbites Team</title>
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="RareFrostbites Team" />
-    <meta property="og:url" content="https://rarefrostbites.pages.dev/">
+    <meta property="og:url" content="https://rarefrostbites.pages.dev/en_us/">
     <meta property="og:title" content="RareFrostbites">
     <meta property="og:description" content="Rise and Shine your Imagination!">
     <meta property="og:image" content="../images/assets/home.jpg">
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://rarefrostbites.pages.dev/">
+    <meta property="twitter:url" content="https://rarefrostbites.pages.dev/en_us/">
     <meta property="twitter:title" content="RareFrostbites">
     <meta property="twitter:description" content="Rise and Shine your Imagination!">
     <meta property="twitter:image" content="../images/assets/home.jpg">
@@ -30,12 +30,21 @@
     <link rel="canonical" href="https://rarefrostbites.pages.dev/" />
 
 
+    <!--address bar color-->
+    <meta name="theme-color" content="#15152A">
+    
+    <meta name="msapplication-navbutton-color" content="#15152A">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
     <!--fonts-->
     <link rel="stylesheet" href="../css/assets/fonts.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Readex+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Be+Vietnam+Pro&family=Gothic+A1:wght@500&family=Josefin+Sans:wght@500&family=Kantumruy:wght@700&family=Kosugi+Maru&family=M+PLUS+1p:wght@500&family=Nokora&family=Noto+Sans+Myanmar:wght@500&family=Padauk:wght@700&family=Poor+Story&family=Poppins&family=Readex+Pro&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 
 
 
@@ -58,6 +67,7 @@
 
 
     <!--js-->
+    <script src="../js/assets/footer.js"></script>
     <script src="../js/assets/header.js"></script>
     <script src="../js/assets/products.js"></script>
     <script src="../js/assets/sidebar.js"></script>
@@ -66,6 +76,7 @@
     <div class="body">
       <div class="products-untap" id="products" onclick="closeProducts()"></div>
       <div class="sidebar-untap" id="sidebar" onclick="closeSidebar()"></div>
+      <div class="language-untap" id="language" onclick="closeLanguage()"></div>
       <div id="header" class="header">
         <span class="slide">
           <div class="mobile-sidebar_button-open-bounce">
@@ -81,13 +92,17 @@
           <img src="../images/assets/rfb.svg" alt="RareFrostbites Logo">
         </div>
         <div class="desktop-logo">
-          <img src="../images/assets/rfb.svg" alt="RareFrostbites Logo">
+          <picture>
+            <source srcset="../images/assets/rfb_logowithtext.svg" media="(min-width: 1336px)" width="182px">
+            
+            <img src="../images/assets/rfb.svg" alt="RareFrostbites Logo" width="35px">
+          </picture>
         </div>
         <div class="desktop-sidebar">
           <div class="desktop-sidebar-area">
-            <a href="../apply" style="margin-left: 20px;"><h2>Apply</h3></a>
-            <a href="../contact"><h2>Contact Us</h3></a>
-            <a href="../privacy_policy" style="margin-right: 5px;"><h2>Privacy Policy</h3></a>
+            <a href="../en_us/apply" style="margin-left: 20px;"><h2>Apply</h3></a>
+            <a href="../en_us/contact"><h2>Contact Us</h3></a>
+            <a href="../en_us/privacy_policy" style="margin-right: 5px;"><h2>Privacy Policy</h3></a>
           </div>
         </div>
         <div class="mobile-products" onclick="openProducts()">
@@ -121,7 +136,7 @@
           </div>
         </div>
         <div class="products-overlay">
-          <a href="../store">
+          <a href="../en_us/store">
             <div class="selection">
               <div class="selection-img">
                 <img src="../images/store/rfbstore.svg" alt="RFB Store" >
@@ -143,9 +158,9 @@
               </div>
             </div>
           </div>
-          <a href="../apply"><h2>Apply</h2></a>
-          <a href="../contact"><h2>Contact Us</h2></a>
-          <a href="../privacy_policy"><h2>Privacy Policy</h2></a>
+          <a href="../en_us/apply"><h2>Apply</h2></a>
+          <a href="../en_us/contact"><h2>Contact Us</h2></a>
+          <a href="../en_us/privacy_policy"><h2>Privacy Policy</h2></a>
         </div>
       </div>
       
@@ -159,14 +174,14 @@
           </div>
         </div>
         <div class="packs_for_you-mobile">
-          <img src="../images/index/packs_for_you.png" alt="RFB Store logo with all of RareFrostbite's Packs inside">
+          <img src="../images/index/packs_for_you.png" alt="RFB Store logo with all of RareFrostbites' Packs inside">
           <iframe src="../embeds/index/circle-mobile.html" frameborder="0"></iframe>
         </div>
 
 
 
         <div class="packs_for_you-desktop">
-          <img src="../images/index/packs_for_you.png" alt="RFB Store logo with all of RareFrostbite's Packs inside">
+          <img src="../images/index/packs_for_you.png" alt="RFB Store logo with all of RareFrostbites' Packs inside">
           <iframe src="../embeds/index/circle-desktop.html" frameborder="0"></iframe>
         </div>
 
@@ -178,7 +193,7 @@
         <div class="rfbstore">
           <h1>We made a Store just for you</h1>
           <div class="rfbstore_button">
-            <a href="../store"><button><h3>Explore and Claim!</h3></button></a>
+            <a href="../en_us/store"><button><h3>Explore and Claim!</h3></button></a>
           </div>
           <div class="rfbstore_animated-mobile">
             <img src="../images/store/rfbstore.gif" alt="Animated RFB Store logo">
@@ -198,7 +213,7 @@
           <h1>We rise, we never stop there. We make products just for you</h1>
           <div class="product-icon">
             <div class="container-sel-bounce">
-              <a href="../store"><div class="container-sel">
+              <a href="../en_us/store"><div class="container-sel">
                 <div class="container">
                   <div class="selection">
                     <img src="../images/store/rfbstore.svg" alt="RFB Store logo">
@@ -306,18 +321,81 @@
                 </a>
               </div>
             </div>
+            
+            <div class="image-bounce">
+              <div class="image">
+                <a href="https://t.me/rarefrostbites" target="_blank">
+                  <img src="../images/assets/social_media/guilded.svg" alt="Guilded logo">
+                </a>
+              </div>
+            </div>
 
           </div>
 
         </div>
 
         <div class="pricon">
-          <a href="../privacy_policy"><h5>Privacy Policy</h5></a>
-          <a href="../contact"><h5>Contact Us</h5></a>
+          <a href="../en_us/privacy_policy"><h5>Privacy Policy</h5></a>
+          <a href="../en_us/contact"><h5>Contact Us</h5></a>
         </div>
 
         <div class="year">
           <h5></h5>
+        </div>
+
+        <div class="language">
+          <div class="current" id="current" onclick="openLanguage()">
+            <img src="https://flagcdn.com/us.svg" width="30" alt="United States">
+            <h6>US</h6>
+          </div>
+
+          <div class="selection" id="selection">
+            <div class="select" style="margin-top: 0px;">
+              <a href="/en_uk/"><h5><img src="https://flagcdn.com/gb.svg" width="30" alt="United Kingdom"> UK</h5></a>
+            </div>
+            <div class="select">
+              <a href="/es_es/"><h5><img src="https://flagcdn.com/es.svg" width="30" alt="Spain"> ES</h5></a>
+            </div>
+            <div class="select">
+              <a href="/fil_ph/"><h5><img src="https://flagcdn.com/ph.svg" width="30" alt="Philippines"> PH</h5></a>
+            </div>
+            <div class="select">
+              <a href="/hi_in/"><h5><img src="https://flagcdn.com/in.svg" width="30" alt="India"> IN</h5></a>
+            </div>
+            <div class="select">
+              <a href="/id_id/"><h5><img src="https://flagcdn.com/id.svg" width="30" alt="Indonesia"> ID</h5></a>
+            </div>
+            <div class="select">
+              <a href="/ja_jp/"><h5><img src="https://flagcdn.com/jp.svg" width="30" alt="Japan"> JP</h5></a>
+            </div>
+            <div class="select">
+              <a href="/km_kh/"><h5><img src="https://flagcdn.com/kh.svg" width="30" alt="Cambodia"> KH</h5></a>
+            </div>
+            <div class="select">
+              <a href="/ko_kr/"><h5><img src="https://flagcdn.com/kr.svg" width="30" alt="Korea"> KR</h5></a>
+            </div>
+            <div class="select">
+              <a href="/ms_my/"><h5><img src="https://flagcdn.com/my.svg" width="30" alt="Malaysia"> MY</h5></a>
+            </div>
+            <div class="select">
+              <a href="/my_bu/"><h5><img src="https://flagcdn.com/mm.svg" width="30" alt="Myanmar"> BU</h5></a>
+            </div>
+            <div class="select">
+              <a href="/pt_pt/"><h5><img src="https://flagcdn.com/pt.svg" width="30" alt="Portugal"> PT</h5></a>
+            </div>
+            <div class="select">
+              <a href="/ru_ru/"><h5><img src="https://flagcdn.com/ru.svg" width="30" alt="Russia"> RU</h5></a>
+            </div>
+            <div class="select">
+              <a href="/vi_vn/"><h5><img src="https://flagcdn.com/vn.svg" width="30" alt="Vietnam"> VN</h5></a>
+            </div>
+            <div class="select">
+              <a href="/zh_cn/"><h5><img src="https://flagcdn.com/cn.svg" width="30" alt="China"> CN</h5></a>
+            </div>
+            <div class="select" style="margin-bottom: 0px;">
+              <a href="/zh_tw/"><h5><img src="https://flagcdn.com/tw.svg" width="30" alt="Taiwan"> TW</h5></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

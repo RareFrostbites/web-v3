@@ -57,14 +57,17 @@
   padding: 20px 20px 20px 20px;
   width: auto;
   height: auto;
+  transition-duration: .2s;
 }
-.body .header_shadow .mobile-sidebar_button-open-bounce:hover .mobile-sidebar_button-open {
+.body .header_shadow .mobile-sidebar_button-open-bounce:hover .mobile-sidebar_button-open:hover {
   background-color: #ffffff43;
+  transition-duration: .1s;
 }
-.body .header_shadow .mobile-sidebar_button-open-bounce:active .mobile-sidebar_button-open {
+.body .header_shadow .mobile-sidebar_button-open-bounce:active .mobile-sidebar_button-open:active {
   padding: 19px 19px 19px 19px;
   margin-left: 1px;
   background-color: #ffffff33;
+  transition-duration: .1s;
 }
 .body .header_shadow .mobile-sidebar_button-open-bounce .mobile-sidebar_button-open .menu {
   width: 20px;
@@ -74,7 +77,7 @@
   width: 20px;
   height: 20px;
 }
-.body .header_shadow .mobile-sidebar_button-open-bounce:active .mobile-sidebar_button-open .menu img {
+.body .header_shadow .mobile-sidebar_button-open-bounce:active .mobile-sidebar_button-open:active .menu img {
   width: 19px;
   height: 19px;
   margin: 1px 1px 1px 1px;
@@ -86,7 +89,7 @@
 
 
 .body .header .desktop-sidebar-area {
-  width: 620px;
+  width: 560px;
   display: flex;
   margin-left: 10px;
   overflow-x: scroll;
@@ -111,7 +114,7 @@
 
 
 .body .header_shadow .desktop-sidebar-area {
-  width: 620px;
+  width: 560px;
   display: flex;
   margin-left: 10px;
   overflow-x: scroll;
@@ -250,5 +253,22 @@
   
   .body .mobile-sidebar {
     display: none;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1336px) {
+  .body .header .desktop-sidebar-area {
+    width: 1100px;
+  }
+
+
+
+  .body .header_shadow .desktop-sidebar-area {
+    width: 1100px;
   }
 }

@@ -1,4 +1,11 @@
 @font-face {
-    src: url("../../fonts/Minecraft-Regular.ttf") format('truetype');
-    font-family: Mojangles;
-  }
+  src: url("../../fonts/Minecraft-Regular.ttf") format('truetype');
+  font-family: Mojangles;
+}
+
+
+
+@font-face {
+  src: url("../../fonts/Unifont.ttf") format('truetype');
+  font-family: Unicode;
+}
