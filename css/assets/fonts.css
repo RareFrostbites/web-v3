@@ -9,3 +9,21 @@
   src: url("../../fonts/Unifont.ttf") format('truetype');
   font-family: Unicode;
 }
+
+
+
+/* Russian */
+
+
+
+@font-face {
+  src: url("../../fonts/ru_ru/18VAG Rounded M Normal.ttf") format('truetype');
+  font-family: VAGRoundedM;
+}
+
+
+
+@font-face {
+  src: url("../../fonts/ru_ru/18VAG Rounded M Bold.ttf") format('truetype');
+  font-family: VAGRoundedB;
+}

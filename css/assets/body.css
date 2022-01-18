@@ -52,43 +52,64 @@ a {
 }
 h1 {
     color: white;
-    font-family: 'Poppins', 'Baloo 2', 'Kosugi Maru', 'Nokora', 'Poor Story', 'Padauk', 'Be Vietnam Pro';
+    font-family: 'Poppins', 'Baloo 2', 'Kosugi Maru', 'Nokora', 'Poor Story', 'Padauk', 'Be Vietnam Pro', 'VAGRoundedM';
     font-weight: bold;
     font-size: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 h2 {
     color: white;
-    font-family: 'Poppins', 'Baloo 2', 'Kosugi Maru', 'Nokora', 'Poor Story', 'Padauk', 'Be Vietnam Pro';
+    font-family: 'Poppins', 'Baloo 2', 'Kosugi Maru', 'Nokora', 'Poor Story', 'Padauk', 'Be Vietnam Pro', 'VAGRoundedM';
     font-weight: bold;
     font-size: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 h3 {
     color: white;
-    font-family: 'Poppins', 'Baloo 2', 'Kosugi Maru', 'Nokora', 'Poor Story', 'Padauk', 'Be Vietnam Pro';
+    font-family: 'Poppins', 'Baloo 2', 'Kosugi Maru', 'Nokora', 'Poor Story', 'Padauk', 'Be Vietnam Pro', 'VAGRoundedM';
     font-size: 1.17rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 h4 {
     color: white;
-    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans';
+    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans', 'VAGRoundedB';
     font-weight: lighter;
     font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 h5 {
     color: white;
-    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans';
+    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans', 'VAGRoundedB';
     font-weight: lighter;
     font-size: .83rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 h6 {
     color: white;
-    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans';
+    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans', 'VAGRoundedB';
     font-weight: lighter;
     font-size: .67rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 p {
     color: white;
-    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans';
+    font-family: 'Readex Pro', 'ZCOOL KuaiLe', 'M PLUS 1p', 'Kantumruy', 'Gothic A1', 'Noto Sans Myanmar', 'Josefin Sans', 'VAGRoundedB';
     font-weight: lighter;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 
 

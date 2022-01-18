@@ -1,4 +1,6 @@
-﻿Chinese (Simplified) = Baloo 2, ZCOOL Kuaile
+﻿Burmese = Padauk, Noto Sans Myanmar
+
+Chinese (Simplified) = Baloo 2, ZCOOL Kuaile
 
 English = Poppins, Readex Pro
 
@@ -8,6 +10,6 @@ Khmer = Nokora, Katumruy
 
 Korean = Poor Story, Gothic A1
 
-Myanmar = Padauk, Noto Sans Myanmar
+Russia = 18VAG Rounded M Normal, 18VAG Rounded M Bold
 
 Vietnamese = Be Vietnam Pro, Josefin Sans
