@@ -247,7 +247,7 @@
 
 
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 600px) {
     .body .footer .social_media .image-logo .image-bounce {
         width: 40px;
         height: 40px;
@@ -290,7 +290,7 @@
 
 
 
-@media only screen and (min-width: 531px) {
+@media only screen and (min-width: 601px) {
     .body .footer .social_media .image-logo .image-bounce {
         margin: 10px;
     }
