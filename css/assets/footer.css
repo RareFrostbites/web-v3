@@ -62,7 +62,7 @@
 
 
 .body .footer .social_media .image-logo .image-bounce .image:active {
-    padding: 1px 1px 1px 1px;
+    padding: 2px 2px 2px 2px;
     transition-duration: .1s;
 }
 
@@ -85,9 +85,9 @@
 
 
 .body .footer .social_media .image-logo .image-bounce:active .image:active a img {
-    width: 58px;
-    height: 58px;
-    border-radius: 40px;
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
 }
 
 
@@ -279,9 +279,9 @@
 
 
     .body .footer .social_media .image-logo .image-bounce:active .image:active a img {
-        border-radius: 20px;
-        width: 38px;
-        height: 38px;
+        border-radius: 10px;
+        width: 36px;
+        height: 36px;
     }
 }
 
