@@ -1,10 +1,10 @@
 .body .header {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 2;
   background-color: #010018;
   height: 100px;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -19,6 +19,8 @@
   z-index: 2;
   background-color: #010018;
   height: 100px;
+  width: 100%;
+  margin-bottom: -100px;
   display: flex;
   align-items: center;
 }

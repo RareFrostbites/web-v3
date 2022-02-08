@@ -13,17 +13,17 @@
   width: auto;
   height: auto;
   cursor: pointer;
-  transition-duration: .2s;
+  transition-duration: .2s ease-out;
 }
 .body .header .mobile-sidebar_button-open-bounce:hover .mobile-sidebar_button-open:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .header .mobile-sidebar_button-open-bounce:active .mobile-sidebar_button-open:active {
   padding: 18px 18px 18px 18px;
   margin-left: 2px;
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .header .mobile-sidebar_button-open-bounce .mobile-sidebar_button-open .menu {
   width: 20px;
@@ -37,7 +37,7 @@
   width: 18px;
   height: 18px;
   margin: 1px 1px 1px 1px;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 
@@ -57,17 +57,17 @@
   padding: 20px 20px 20px 20px;
   width: auto;
   height: auto;
-  transition-duration: .2s;
+  transition-duration: .2s ease-out;
 }
 .body .header_shadow .mobile-sidebar_button-open-bounce:hover .mobile-sidebar_button-open:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .header_shadow .mobile-sidebar_button-open-bounce:active .mobile-sidebar_button-open:active {
   padding: 19px 19px 19px 19px;
   margin-left: 1px;
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .header_shadow .mobile-sidebar_button-open-bounce .mobile-sidebar_button-open .menu {
   width: 20px;
@@ -89,7 +89,7 @@
 
 
 .body .header .desktop-sidebar-area {
-  width: 700px;
+  width: 535px;
   display: flex;
   margin-left: 10px;
   overflow-x: scroll;
@@ -104,17 +104,17 @@
 }
 .body .header .desktop-sidebar-area h2:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .header .desktop-sidebar-area h2:active {
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 
 
 .body .header_shadow .desktop-sidebar-area {
-  width: 700px;
+  width: 535px;
   display: flex;
   margin-left: 10px;
   overflow-x: scroll;
@@ -129,11 +129,11 @@
 }
 .body .header_shadow .desktop-sidebar-area h2:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .header_shadow .desktop-sidebar-area h2:active {
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 
@@ -169,17 +169,17 @@
   width: auto;
   height: auto;
   cursor: pointer;
-  transition-duration: .3s;
+  transition-duration: .3s ease-out;
 }
 .body .mobile-sidebar .mobile-sidebar-area .mobile-sidebar_button-close-bounce:hover .mobile-sidebar_button-close:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .mobile-sidebar .mobile-sidebar-area .mobile-sidebar_button-close-bounce:active .mobile-sidebar_button-close:active {
   padding: 18px 18px 18px 18px;
   margin-left: 2px;
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .mobile-sidebar .mobile-sidebar-area .mobile-sidebar_button-close-bounce .mobile-sidebar_button-close .close {
   width: 20px;
@@ -193,7 +193,7 @@
   width: 18px;
   height: 18px;
   margin: 1px 1px 1px 1px;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .mobile-sidebar .mobile-sidebar-area a {
   display: block;
@@ -206,11 +206,11 @@
 }
 .body .mobile-sidebar .mobile-sidebar-area a:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 .body .mobile-sidebar .mobile-sidebar-area a:active {
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 
@@ -263,12 +263,12 @@
 
 @media only screen and (min-width: 1336px) {
   .body .header .desktop-sidebar-area {
-    width: 1040px;
+    width: 940px;
   }
 
 
 
   .body .header_shadow .desktop-sidebar-area {
-    width: 1040px;
+    width: 940px;
   }
 }

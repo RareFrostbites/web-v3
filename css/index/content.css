@@ -148,6 +148,7 @@
   border-right: 2px solid #004E00;
   border-bottom: 2px solid #004E00;
   border-left: 2px solid #18BE05;
+  cursor: pointer;
 }
 .body .content .rfbstore .rfbstore_button button:active {
   background-color: #208100;
@@ -242,14 +243,14 @@
   width: auto;
   height: auto;
   cursor: pointer;
-  transition-duration: .2s;
+  transition-duration: .2s ease-out;
 }
 
 
 
 .body .content .products .product-icon .container-sel-bounce .container-sel:hover {
   background-color: #ffffff43;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 
@@ -257,7 +258,7 @@
 .body .content .products .product-icon .container-sel-bounce .container-sel:active {
   padding: 18px 18px 18px 18px;
   background-color: #ffffff33;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 
@@ -280,7 +281,7 @@
   width: 148px;
   height: 185px;
   margin: 1px 1px 1px 1px;
-  transition-duration: .1s;
+  transition-duration: .1s ease-out;
 }
 
 

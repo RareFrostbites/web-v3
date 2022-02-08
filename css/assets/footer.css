@@ -7,6 +7,7 @@
 
 
 .body .footer hr {
+    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
     outline-width: .2px;
@@ -49,21 +50,21 @@
     height: 60px;
     border-radius: 10px;
     cursor: pointer;
-    transition-duration: .2s;
+    transition-duration: .2s ease-out;
     z-index: 2;
 }
 
 
 
 .body .footer .social_media .image-logo .image-bounce .image:hover {
-    transition-duration: .1s;
+    transition-duration: .2s ease-out;
 }
 
 
 
 .body .footer .social_media .image-logo .image-bounce .image:active {
     padding: 2px 2px 2px 2px;
-    transition-duration: .1s;
+    transition-duration: .2s ease-out;
 }
 
 
@@ -96,34 +97,35 @@
 
 
 .body .footer .pricon {
+    position: relative;
     float: right;
-    margin-right: 20px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
 
 
 
-.body .footer .pricon h5 {
+.body .footer .pricon a h5 {
     margin-right: 10px;
     margin-left: 10px;
     padding: 5px;
     border-radius: 5px;
-    transition-duration: .2s;
+    transition-duration: .2s ease-out;
 }
 
 
 
-.body .footer .pricon h5:hover {
+.body .footer .pricon a h5:hover {
     background-color: #ffffff43;
-    transition-duration: .1s;
+    transition-duration: .2s ease-out;
 }
 
 
 
-.body .footer .pricon h5:active {
+.body .footer .pricon a h5:active {
     background-color: #ffffff33;
-    transition-duration: .1s;
+    transition-duration: .2s ease-out;
 }
 
 
@@ -135,6 +137,13 @@
     position: relative;
     margin-left: 30px;
     bottom: -25px;
+}
+
+
+
+.body .footer .year h5 {
+    height: 16px;
+    width: 100px;
 }
 
 
@@ -151,7 +160,7 @@
 .body .footer .language .current {
     position: relative;
     display: flex;
-    z-index: 6;
+    z-index: 3;
     float: right;
     margin-right: 30px;
     padding: 5px;
@@ -172,7 +181,7 @@
 
 
 .body .footer .language .current:active {
-    background-color: #00ffbb43;
+    background-color: #ffffff33;
 }
 
 
@@ -189,16 +198,29 @@
     z-index: 6;
     flex-direction: column;
     float: right;
-    bottom: 210px;
+    bottom: 275px;
     padding: 8px 5px 8px 5px;
-    margin-bottom: -200px;
+    margin-bottom: -275px;
     right: -60px;
     width: 90px;
-    height: 200px;
+    height: 265px;
     background-color: #02002e;
     border-radius: 5px;
     align-content: center;
     overflow-y: scroll;
+}
+
+
+
+.body .footer .language .selection::-webkit-scrollbar {
+    background-color: #02002e;
+}
+
+
+
+.body .footer .language .selection::-webkit-scrollbar-track {
+    background-color: #02002e;
+    border-radius: 10px;
 }
 
 
@@ -223,7 +245,7 @@
 
 
 .body .footer .language .selection .select:active {
-    background-color: #00ffbb43;
+    background-color: #ffffff33;
     animation-duration: .1s;
 }
 
@@ -328,7 +350,7 @@
 @media only screen and (min-width: 800px) {
     .body .footer .social_media {
         float: left;
-        margin-left: 120px;
+        margin-left: 150px;
         height: auto;
         text-align: center;
     }
@@ -340,6 +362,9 @@
 
     .body .footer .pricon {
         margin-top: 200px;
+        width: 198px;
+        justify-content: flex-end;
+        flex-direction: column;
     }
 
 
@@ -349,5 +374,27 @@
 
     .body .footer .year {
         margin-top: 300px;
+    }
+
+
+
+
+
+
+    .body .footer .language .current {
+        right: 0px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .body .footer .pricon {
+        width: 393px;
+        justify-content: center;
+        flex-direction: row;
     }
 }
