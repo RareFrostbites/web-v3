@@ -7,3 +7,10 @@
     margin-bottom: 20px;
     margin-right: auto;
 }
+
+
+
+.body .content img {
+    width: 11px;
+    height: 11px;
+}
