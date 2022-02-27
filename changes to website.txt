@@ -1,3 +1,2 @@
-﻿HOTFIX UPDATE
-- fixed contact file path (for media files), it's now on the asset file path
-- fixed some pages don't contain a proper logo and thumbnail of the page
+﻿- 404 page is here!
+- fixed that the UI of the Apply page is laggy, unresponsive and buggy
