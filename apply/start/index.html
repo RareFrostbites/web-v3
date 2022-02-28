@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title data-title-privacy-policy>Privacy Policy</title>
+    <title>Apply</title>
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="RareFrostbites Team" />
-    <meta
-      property="og:url"
-      content="https://rarefrostbites.pages.dev/privacy-policy"
-    />
-    <meta property="og:title" content="RareFrostbites' Privacy Policy" />
+    <meta property="og:url" content="https://rarefrostbites.pages.dev/apply/start/" />
+    <meta property="og:title" content="Apply on RareFrostbites Team" />
     <meta
       property="og:description"
-      content="Every Frostbits' safety is our top priority."
+      content="Do you want to work with us? We're a fully distributed and voluntary Team, your time and desicion is on yours!"
     />
     <meta
       property="og:image"
-      content="https://rarefrostbites.pages.dev/media/assets/privacy-policy/privacy-policy.png"
+      content="https://rarefrostbites.pages.dev/media/assets/apply/apply.jpg"
     />
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://rarefrostbites.pages.dev/privacy-policy"
-    />
-    <meta property="twitter:title" content="RareFrostbites' Privacy Policy" />
+    <meta property="twitter:url" content="https://rarefrostbites.pages.dev/apply/start/" />
+    <meta property="twitter:title" content="Apply on RareFrostbites Team" />
     <meta
       property="twitter:description"
-      content="Every Frostbits' safety is our top priority."
+      content="Do you want to work with us? We're a fully distributed and voluntary Team, your time and desicion is on yours!"
     />
     <meta
       property="twitter:image"
-      content="https://rarefrostbites.pages.dev/media/assets/privacy-policy/privacy-policy.png"
+      content="https://rarefrostbites.pages.dev/media/assets/apply/apply.jpg"
     />
 
-    <meta name="title" content="RareFrostbites' Privacy Policy" />
-    <meta
-      name="description"
-      content="Every Frostbits' safety is our top priority."
-    />
-    <meta name="keywords" content="Privacy Policy, RareFrostbites" />
+    <meta name="title" content="Apply on RareFrostbites Team" />
+    <meta name="description" content="Do you want to work with us? We're a fully distributed and voluntary Team, your time and desicion is on yours!" />
+    <meta name="keywords" content="Apply, RareFrostbites" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta content="width=device-width,minimum-scale=1.0" name="viewport" />
 
-    <link rel="shortcut icon" href="https://rarefrostbites.pages.dev/media/assets/privacy-policy/rfbsafe.ico" />
-    <link rel="canonical" href="https://rarefrostbites.pages.dev/privacy-policy" />
+    <link rel="shortcut icon" href="https://rarefrostbites.pages.dev/media/assets/rfb.ico" />
+    <link rel="canonical" href="https://rarefrostbites.pages.dev/apply/start" />
 
     <!--address bar color-->
     <meta name="theme-color" content="#15152A" />
@@ -82,9 +73,8 @@
     <link rel="stylesheet" href="/styles/assets/products.css" />
     <link rel="stylesheet" href="/styles/assets/sidebar.css" />
 
-    <link rel="stylesheet" href="/styles/privacy-policy/content.css" />
-    <link rel="stylesheet" href="/styles/privacy-policy/image.css" />
-    <link rel="stylesheet" href="/styles/privacy-policy/texts.css" />
+    <link rel="stylesheet" href="/styles/404/start/content.css" />
+    <link rel="stylesheet" href="/styles/404/start/fonts.css" />
 
     <!--js-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -101,10 +91,9 @@
         "div.mobile-sidebar",
         0
       );
+      include("/components/apply/start/content.html", "", "div.content", 0);
       include("/components/assets/footer.html", "", "div.footer", 0);
-      privacyPolicyTranslation();
     </script>
-
     <script defer src="/js/assets/footer.js"></script>
     <script defer src="/js/assets/header.js"></script>
     <script defer src="/js/assets/products.js"></script>
@@ -117,6 +106,10 @@
   </head>
   <body>
     <div class="body">
+      <div class="products-untap" id="products" onclick="closeProducts()"></div>
+      <div class="sidebar-untap" id="sidebar" onclick="closeSidebar()"></div>
+      <div class="language-untap" id="language" onclick="closeLanguage()"></div>
+
       <div class="popup-remove"></div>
 
       <div id="header" class="header"></div>
