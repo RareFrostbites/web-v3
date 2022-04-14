@@ -14,6 +14,8 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title826">Guilded</title>
   <defs
      id="defs13" />
   <sodipodi:namedview
@@ -27,7 +29,7 @@
      showgrid="false"
      width="210px"
      inkscape:zoom="3.1550388"
-     inkscape:cx="45.00737"
+     inkscape:cx="101.10811"
      inkscape:cy="101.58354"
      inkscape:window-width="1920"
      inkscape:window-height="1005"
@@ -36,8 +38,6 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg9" />
   <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
-  <title
-     id="title2">Logomark / Guilded-Wordmark-Color</title>
   <desc
      id="desc4">Created with Sketch.</desc>
   <g
@@ -62,7 +62,7 @@
     <rdf:RDF>
       <cc:Work
          rdf:about="">
-        <dc:title>Logomark / Guilded-Wordmark-Color</dc:title>
+        <dc:title>Guilded</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

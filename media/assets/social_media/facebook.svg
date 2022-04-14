@@ -13,7 +13,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title832">Facebook</title>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#505050"
@@ -28,7 +33,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.70710678"
-     inkscape:cx="315.36962"
+     inkscape:cx="313.95541"
      inkscape:cy="406.5864"
      inkscape:window-width="1920"
      inkscape:window-height="1005"
@@ -91,4 +96,13 @@
       </g>
     </g>
   </g>
+  <metadata
+     id="metadata830">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Facebook</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

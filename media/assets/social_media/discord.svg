@@ -11,7 +11,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title830">Discord</title>
   <sodipodi:namedview
      id="namedview13"
      pagecolor="#505050"
@@ -23,7 +28,7 @@
      showgrid="false"
      inkscape:zoom="2.6162951"
      inkscape:cx="113.5193"
-     inkscape:cy="112.94598"
+     inkscape:cy="112.94597"
      inkscape:window-width="1920"
      inkscape:window-height="1005"
      inkscape:window-x="-9"
@@ -72,4 +77,13 @@
          id="path2" />
     </g>
   </g>
+  <metadata
+     id="metadata828">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Discord</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
