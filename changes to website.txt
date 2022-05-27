@@ -1,3 +1,3 @@
-﻿- fixed the button where if you tap the RFB Store on the app container, it'll redirect you to the wrong page
-- RFB Store's language picker is now working properly
-- some UI tweak changes
+﻿RFB Store
+- you can now view any Pack
+- fix the "FREE" word in other languages cause to misalign and not spreading any width to it
