@@ -1,9 +1,61 @@
+@keyframes alert-cl {
+    0% {
+        margin-top: -80px;
+    }
+    10% {
+        margin-top: -19px;
+    }
+    90% {
+        margin-top: -19px;
+    }
+    100% {
+        margin-top: -80px;
+    }
+}
+
+
+
+.alert-cl {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-cl .alert-cl-h {
+    display: flex;
+    width: 90%;
+    background-color: #000000;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-cl .alert-cl-h .alert-cl-h-h {
+    display: none;
+    margin: 3px;
+    padding: 10px;
+    width: 100%;
+    background-color: #212121;
+    border: #555555 5px solid;
+    border-radius: 3px;
+}
+
+.alert-cl .alert-cl-h-h h3 {
+    color: #ffffff;
+}
+
+
 .hp {
+    width: 872px;
     display: flex;
     vertical-align: top;
     margin-top: 80px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hp .t {
@@ -17,8 +69,8 @@
 }
 
 .hp .ph {
-    margin-top: 20px;
     width: 300px;
+    margin-top: 20px;
 }
 .hp .ph .tt h2 {
     font-family: "Mojangles", "Unicode";
@@ -33,6 +85,8 @@
     color: #00ccff;
 }
 .hp .ph .d {
+    width: 300px;
+    height: 60px;
     margin-left: 320px;
     margin-top: 50px;
 }
@@ -69,4 +123,148 @@
 .hp .ph .d a .b:active h3 {
     color: #ffffff;
     transform: translateY(5px);
+}
+
+@media only screen and (min-width: 320px) {
+    .hp {
+        width: 320px;
+    }
+
+    .hp .t {
+        width: 100px;
+        height: 100px;
+        margin-right: 25px;
+    }
+    .hp .t img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hp .ph {
+        width: 190px;
+        margin-top: 10px;
+    }
+
+    .hp .ph .d {
+        margin-left: -114px;
+    }
+}
+
+
+@media only screen and (min-width: 640px) {
+    .hp {
+        width: 640px;
+    }
+
+    .hp .ph .d {
+        margin-left: 215px;
+    }
+}
+
+
+/* @media only screen and (min-width: 768px) {
+    .hp {
+        width: 768px;
+    }
+
+    .hp .ph .d {
+        margin-left: 215px;
+    }
+} */
+
+
+.share {
+    max-width: 640px;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+}
+
+.share .holder {
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.share .holder button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #c6c6c6;
+    border-top: 3px solid #dedede;
+    border-right: 3px solid #656465;
+    border-bottom: 3px solid #656465;
+    border-left: 3px solid #dedede;
+    justify-content: center;
+    align-items: center;
+}
+.share .holder button:hover {
+    background-color: #208100;
+    border-top: 3px solid #18be05;
+    border-right: 3px solid #004e00;
+    border-bottom: 3px solid #004e00;
+    border-left: 3px solid #18be05;
+    cursor: pointer;
+}
+.share .holder button:active {
+    background-color: #208100;
+    border-top: 3px solid #004e00;
+    border-right: 3px solid #18be05;
+    border-bottom: 3px solid #18be05;
+    border-left: 3px solid #004e00;
+}
+
+.share .holder button img {
+    width: 30px;
+    height: 30px;
+}
+.share .holder button:active img {
+    transform: translateY(2.5px);
+}
+
+.share .holder input {
+    opacity: 0%;
+    width: 10px;
+    height: 10px;
+    transform: translate(-100000px);
+}
+
+@media only screen and (max-width: 640px) {
+    .share {
+        width: 300px;
+    }
+}
+
+
+.pps {
+    max-width: 640px;
+    height: 290px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pps .pps-h {
+    display: flex;
+    height: 210px;
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.pps .pps-h .pps-s {
+    display: flex;
+    min-width: 320px;
+    height: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.pps .pps-h .pps-s img {
+    width: 320px;
+    height: 180px;
 }
