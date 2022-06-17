@@ -34,14 +34,8 @@ function LanguageChecker() {
 }
 
 function initializeLanguage() {
+  // assets
   var initLang = languageContent[LanguageChecker()];
-  for (var lang of Object.keys(initLang)) {
-    if ($("[data-" + lang + "]")) {
-      $("[data-" + lang + "]").html(initLang[lang]);
-    }
-  }
-  
-  var initLang = languagePack[LanguageChecker()];
   for (var lang of Object.keys(initLang)) {
     if ($("[data-" + lang + "]")) {
       $("[data-" + lang + "]").html(initLang[lang]);

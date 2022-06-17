@@ -1,7 +1,17 @@
 ﻿Main
-- The Instagram logo changed on the socials as part of the Instagram's new branding
 - Tweak the scrolling experience when you scroll from the top to make it more natural
+- The image is now rendering more pixelated instead of blurry (if you encounter low-quality image, it'll render that looks high-quality in your eyes) 
+
+Homepage
+- tweak some codes
 
 RFB Store
-- Share buttons are here! You can now share a Pack (you can share using Ya Ea pack this time)
-- You can now see a video trailer and screenshots of a Pack (only Ya Ea this time)
+- you can now rate Packs from 1 to 5 stars and add feedback on it
+- you can now download a Pack
+- thumbnails changed
+- fixed the back icon isn't margined properly for small screens
+- fixed the buttons can't tap when you scroll from the top a bit (it's because of a hidden element that holds the alerts when tapping the share button)
+- Pack info added
+- tweak the Pack preview screenshots and trailer's UI so it would look natural
+- fix a bug where the Pack preview trailer is misaligned for mobile browsers
+- fix a bug where the "Link copied" alert on the top acting abnormal while tapping the share icon many times
