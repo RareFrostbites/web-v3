@@ -353,7 +353,7 @@
     height: 210px;
     margin-right: auto;
     margin-left: auto;
-    overflow-x: scroll;
+    overflow-x: auto;
     align-items: center;
 }
 
@@ -661,16 +661,20 @@
     height: 300px;
     margin-right: auto;
     margin-left: auto;
-    overflow-y: hidden;
+    overflow: hidden;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
 }
 
 .mfa .an {
+    display: flex;
     margin: 15px 0px 0px 15px;
+    overflow: hidden;
 }
 .mfa .an h2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-weight: normal;
 }
 
