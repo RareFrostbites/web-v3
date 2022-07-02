@@ -1,6 +1,8 @@
 ﻿Main
-- We removed the support for Apple Safari's address bar color since Safari already supported the traditional custom address bar color
+- Font thickness is changed (the change sync with Safari browsers now)
+- Fix the language picker's UI aren't look well
+- Fix the App Drawer icon causing to accidentally tap to open even not to the direct icon or area
 
 RFB Store
-- You can now use the filters on the top (Maps, Texture Packs, Skin Packs and Mash-up Packs)
-- Hidden upcomming 3 Skin Packs are in there, you might need to look it up on yourself 👀
+- The address bar color has now its own color similar to the header's color
+- The Preview's (Pack preview before) scrollbar will be hidden when it is not overflow
