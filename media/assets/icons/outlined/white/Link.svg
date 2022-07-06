@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24mm"
+   height="24mm"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg953"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Link.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title3475">Link</title>
+  <sodipodi:namedview
+     id="namedview955"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="8"
+     inkscape:cx="45.625"
+     inkscape:cy="43.9375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1005"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs950" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3469">
+      <path
+         id="rect1763"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         d="M 18.898438 26.457031 C 8.4291454 26.457031 -4.7369516e-15 34.884224 0 45.353516 C -2.3684758e-15 55.822805 8.4291454 64.251953 18.898438 64.251953 L 34.015625 64.251953 C 34.016933 64.251953 34.018223 64.251954 34.019531 64.251953 C 36.111571 64.249849 37.794922 62.565206 37.794922 60.472656 C 37.794922 58.385996 36.120958 56.704893 34.037109 56.693359 L 34.019531 56.693359 L 33.917969 56.693359 L 18.898438 56.693359 C 12.616863 56.693359 7.5585937 51.635091 7.5585938 45.353516 C 7.5585938 39.07194 12.616863 34.015625 18.898438 34.015625 L 34.015625 34.015625 L 34.019531 34.015625 C 36.111571 34.013521 37.794922 32.328878 37.794922 30.236328 C 37.794922 28.143779 36.11157 26.459137 34.019531 26.457031 L 18.898438 26.457031 z "
+         transform="scale(0.26458333)" />
+      <path
+         id="rect1763-4"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         d="M 56.595703 26.457031 C 54.547425 26.508578 52.914062 28.175186 52.914062 30.236328 C 52.914062 32.329532 54.598457 34.014572 56.691406 34.015625 C 56.69206 34.015625 56.692705 34.015625 56.693359 34.015625 L 71.8125 34.015625 C 78.093172 34.016671 83.150391 39.07259 83.150391 45.353516 C 83.150391 51.634442 78.093172 56.692313 71.8125 56.693359 L 71.810547 56.693359 L 56.693359 56.693359 C 56.693359 56.693359 56.691406 56.693359 56.691406 56.693359 C 54.598457 56.694412 52.914062 58.379452 52.914062 60.472656 C 52.914062 62.56586 54.60041 64.2509 56.693359 64.251953 L 71.810547 64.251953 C 82.279838 64.251953 90.708984 55.822805 90.708984 45.353516 C 90.708984 34.884879 82.28088 26.458086 71.8125 26.457031 L 71.810547 26.457031 L 56.791016 26.457031 L 56.693359 26.457031 C 56.692705 26.457031 56.692061 26.457031 56.691406 26.457031 C 56.659348 26.457047 56.627565 26.456229 56.595703 26.457031 z "
+         transform="scale(0.26458333)" />
+      <path
+         id="rect1763-4-6-60"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         d="M 22.675781 41.574219 C 20.582832 41.575271 18.898438 43.260311 18.898438 45.353516 C 18.898437 47.44672 20.582832 49.133713 22.675781 49.134766 C 22.676435 49.134766 22.67708 49.134766 22.677734 49.134766 L 68.033203 49.134766 C 70.127061 49.134766 71.8125 47.447374 71.8125 45.353516 C 71.8125 43.260965 70.129149 41.576323 68.037109 41.574219 L 22.677734 41.574219 L 22.675781 41.574219 z "
+         transform="scale(0.26458333)" />
+    </g>
+  </g>
+  <metadata
+     id="metadata3471">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:date>7/3/2022</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>PhilMinecraft</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>RareFrostbites</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Link</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Link</rdf:li>
+            <rdf:li>Link Chain</rdf:li>
+            <rdf:li>Chain</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
